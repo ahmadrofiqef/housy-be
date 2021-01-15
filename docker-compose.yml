@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  housy-be:
+     container_name: housy-be
+     image: ahmadrofiqef/housy-be:1.0
+     ports:
+        - 5000:5000
